@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin: 5rem 0 1rem;
+}
+
+.wrapper {
+  background-color: #88499c;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.box {
+  background-color: #e77f24;
+  border: thin solid #111111;
+  float: left;
+}
+
+/* Pixeles */
+.px {
+  width: 300px;
+}
+
+.px .box {
+  width: 100px;
+  height: 100px;
+}
+
+/* Porcentaje */
+.percent {
+  width: 50%;
+}
+
+.percent .box {
+  width: 25%;
+  height: 50px;
+}
+
+/* EM */
+.em {
+  width: 9em;
+  font-size: 32px;
+}
+
+.em .box {
+  width: 3em;
+  height: 3em;
+}
+
+/* REM */
+.rem {
+  width: 9rem;
+}
+
+.rem .box {
+  width: 3rem;
+  height: 3rem;
+}
+
+/* Viewport */
+.viewport {
+  width: 100vw;
+  height: 100vh;
+  margin-bottom: 500px;
+}
+
+.viewport .box {
+  width: 25vw;
+  height: 50vh;
+}
